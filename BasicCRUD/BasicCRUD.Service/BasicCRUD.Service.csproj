@@ -44,5 +44,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserService.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BasicCRUD.Dao\BasicCRUD.Dao.csproj">
+      <Project>{0967d46e-d19f-41bc-b75d-9052f82eb65c}</Project>
+      <Name>BasicCRUD.Dao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BasicCRUD.Model\BasicCRUD.Model.csproj">
+      <Project>{51752928-13d9-470f-8c41-8378b2814bef}</Project>
+      <Name>BasicCRUD.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
