@@ -76,3 +76,15 @@ D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\obj\D
 D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\obj\Debug\BasicCRUD.csproj.CopyComplete
 D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\obj\Debug\BasicCRUD.dll
 D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\obj\Debug\BasicCRUD.pdb
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\BasicCRUD.Model.dll
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\BasicCRUD.Service.dll
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\Newtonsoft.Json.dll
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\System.Net.Http.Formatting.dll
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\System.Web.Http.dll
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\BasicCRUD.Dao.dll
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\BasicCRUD.Model.pdb
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\BasicCRUD.Service.pdb
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\Newtonsoft.Json.xml
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\System.Net.Http.Formatting.xml
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\System.Web.Http.xml
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD\bin\BasicCRUD.Dao.pdb

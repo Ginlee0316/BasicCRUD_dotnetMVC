@@ -4,3 +4,8 @@ D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Servi
 D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Service\obj\Debug\BasicCRUD.Service.csproj.CoreCompileInputs.cache
 D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Service\obj\Debug\BasicCRUD.Service.dll
 D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Service\obj\Debug\BasicCRUD.Service.pdb
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Service\bin\Debug\BasicCRUD.Dao.dll
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Service\bin\Debug\BasicCRUD.Model.dll
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Service\bin\Debug\BasicCRUD.Dao.pdb
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Service\bin\Debug\BasicCRUD.Model.pdb
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Service\obj\Debug\BasicCRUD.Service.csproj.CopyComplete

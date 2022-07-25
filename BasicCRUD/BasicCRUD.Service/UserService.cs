@@ -21,7 +21,11 @@ namespace BasicCRUD.Service
         {
             List<User> users = new List<User>();
 
-            users = userDao.GetUserData();
+            //users = userDao.GetUserData();
+
+            users.Add(new User() { UserId = "1", UserAccount = "a001", UserName = "a001_Name", Email = "a001@xyz.com" });
+            users.Add(new User() { UserId = "2", UserAccount = "a002", UserName = "a002_Name", Email = "a002@xyz.com" });
+            users.Add(new User() { UserId = "3", UserAccount = "a003", UserName = "a003_Name", Email = "a003@xyz.com" });
 
             return users;
         }
@@ -30,19 +34,25 @@ namespace BasicCRUD.Service
         {
             User user = new User();
 
-            user = userDao.GetUserById(userId);
+            //user = userDao.GetUserById(userId);
+
+            user.UserId = "1";
+            user.UserAccount = "a001";
+            user.UserName = "a001_Name";
+            user.Email = "a001@xyz.com";
+
 
             return user;
         }
 
         public void UpdateUserData(User user)
         {
-            userDao.UpdateUserData(user);
+            //userDao.UpdateUserData(user);
         }
 
         public void DeleteUser(string userId)
         {
-            userDao.DeleteUser(userId);
+            //userDao.DeleteUser(userId);
         }
     }
 }

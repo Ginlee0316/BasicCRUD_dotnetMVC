@@ -1,0 +1,99 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.121/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.9/js/responsive.bootstrap4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+</head>
+<body>
+    <div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">UserAccount</label>
+            <div class="col-md-10">
+                <input id="UserAccount" type="text" name="UserAccount" class="form-control" value="" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">UserName</label>
+            <div class="col-md-10">
+                <input id="UserName" type="text" name="UserName" class="form-control" value="" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Email</label>
+            <div class="col-md-10">
+                <input id="Email" type="text" name="Email" class="form-control" value="" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="button" id="SearchBtn" class="btn btn-default">查詢</button>
+                <button type="button" id="CreatBtn" class="btn btn-default">新增人員</button>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div>
+        <table id="userTable" class="display" style="width:100%"></table>
+    </div>
+
+    <div id="EditDialog" title="Edit">
+        <div class="form-group" style="display:none">
+            <label class="control-label col-md-2">UserId</label>
+            <div class="col-md-10">
+                <input id="UserEditId" type="text" name="EditUserId" class="form-control" value="" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">UserAccount</label>
+            <div class="col-md-10">
+                <input id="UserEditAccount" type="text" name="EditUserAccount" class="form-control" value="" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">UserName</label>
+            <div class="col-md-10">
+                <input id="UserEditName" type="text" name="EditUserName" class="form-control" value="" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Email</label>
+            <div class="col-md-10">
+                <input id="EditEmail" type="text" name="EditEmail" class="form-control" value="" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="button" id="EditSaveBtn" class="btn btn-default">編輯</button>
+                <button type="button" id="EditCancleBtn" class="btn btn-default">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/JavaScripts/user.js"></script>
+</body>
+</html>

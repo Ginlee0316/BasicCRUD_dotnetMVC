@@ -19,12 +19,19 @@ namespace BasicCRUD.Controllers
         }
 
         [HttpGet]
+        
         public JsonResult GetUser()
         {
-            return Json(userService.GetUserData());
+            return Json(userService.GetUserData(), JsonRequestBehavior.AllowGet);
         }
 
-        [HttpPatch]
+        [HttpGet]
+        public JsonResult GetUserById(string userId)
+        {
+            return Json(userService.GetUserById(userId), JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
         public JsonResult UpdateUser(User user)
         {
             try
@@ -53,12 +60,12 @@ namespace BasicCRUD.Controllers
             }
         }
 
-        [HttpDelete]
-        public JsonResult DeleteUser(string id)
+        [HttpPost]
+        public JsonResult DeleteUser(string userId)
         {
             try
             {
-                userService.DeleteUser(id);
+                userService.DeleteUser(userId);
                 return Json(true);
             }
             catch (Exception ex)
