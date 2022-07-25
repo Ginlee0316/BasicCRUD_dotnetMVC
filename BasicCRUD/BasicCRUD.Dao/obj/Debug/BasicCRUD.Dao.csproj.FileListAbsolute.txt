@@ -1,0 +1,6 @@
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Dao\bin\Debug\BasicCRUD.Dao.dll
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Dao\bin\Debug\BasicCRUD.Dao.pdb
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Dao\obj\Debug\BasicCRUD.Dao.csproj.AssemblyReference.cache
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Dao\obj\Debug\BasicCRUD.Dao.csproj.CoreCompileInputs.cache
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Dao\obj\Debug\BasicCRUD.Dao.dll
+D:\Gin\TempProject\永慶面試題\BasicCRUD_dotnetMVC\BasicCRUD\BasicCRUD.Dao\obj\Debug\BasicCRUD.Dao.pdb
